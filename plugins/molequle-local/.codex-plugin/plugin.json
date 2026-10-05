@@ -1,6 +1,6 @@
 {
   "name": "molequle-local",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Observe and control a locally running Molequle instance using its existing MCP bridge.",
   "author": {
     "name": "Qlaude"
