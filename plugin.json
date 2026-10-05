@@ -1,0 +1,24 @@
+{
+  "name": "molequle-local",
+  "version": "1.0.0",
+  "description": "Observe and control a locally running Molequle instance using its existing MCP bridge.",
+  "author": {
+    "name": "Qlaude"
+  },
+  "repository": "https://github.com/anonymous-therapist/molequle-chatgpt",
+  "license": "MIT",
+  "interface": {
+    "displayName": "Molequle Local",
+    "shortDescription": "Observe and control Molequle",
+    "longDescription": "Private desktop local MCP bridge for your running Molequle instance: state, events, metrics, history, configuration, parameters, control commands, saves, trends, and weather logs.",
+    "developerName": "Qlaude",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": "Show me the current Molequle state and recent events."
+  },
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json"
+}
