@@ -79,7 +79,7 @@ ChatGPT Desktop
 
 ## Credits
 
-Molequle and its MCP implementation were created in
+Molequle and its MCP implementation were created by **Jinx** in
 [TheFeloniousMonk/Molequle](https://github.com/TheFeloniousMonk/Molequle).
 The MCP bridge in `plugins/molequle-local/server/main.py` is preserved from
 upstream commit `67d9d496a6c14f272910111ee070910a857315a5`. The upstream
