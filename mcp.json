@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "molequle": {
+      "type": "stdio",
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${PLUGIN_ROOT}/start.ps1"
+      ],
+      "cwd": "${PLUGIN_ROOT}",
+      "env": {
+        "MOLEQULE_API_URL": "http://localhost:3333"
+      }
+    }
+  }
+}
