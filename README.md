@@ -16,6 +16,10 @@ connects to Molequle's local REST API at `http://localhost:3333`.
 - Toggle The Smoother
 - List automatic saves
 
+The bridge reads the current parameter names and ranges directly from
+Molequle's `/api/param-ranges` endpoint, so new upstream parameters become
+available without maintaining a second list in this plugin.
+
 ## Install on Windows
 
 You need ChatGPT Desktop, Python 3.10+, Node.js, Git, and the Codex CLI that
@@ -81,9 +85,9 @@ ChatGPT Desktop
 
 Molequle and its MCP implementation were created by **Jinx** in
 [TheFeloniousMonk/Molequle](https://github.com/TheFeloniousMonk/Molequle).
-The MCP bridge in `plugins/molequle-local/server/main.py` is preserved from
-upstream commit `67d9d496a6c14f272910111ee070910a857315a5`. The upstream
-repository identifies the project as MIT-licensed.
+The MCP bridge in `plugins/molequle-local/server/main.py` is synchronized with
+the upstream Molequle 2.0.3 implementation. The upstream repository identifies
+the project as MIT-licensed.
 
 This repository adds only the ChatGPT/Codex plugin packaging, marketplace, and
 installation instructions.
